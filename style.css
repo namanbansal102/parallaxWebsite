@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    
+}
+.container{
+    scroll-behavior: smooth;
+    background-image: linear-gradient(
+  180deg,
+  hsl(240deg 100% 19%) 0%,
+  hsl(246deg 84% 24%) 11%,
+  hsl(247deg 70% 30%) 22%,
+  hsl(248deg 62% 35%) 33%,
+  hsl(248deg 56% 41%) 44%,
+  hsl(247deg 51% 46%) 56%,
+  hsl(247deg 52% 52%) 67%,
+  hsl(246deg 61% 58%) 78%,
+  hsl(246deg 74% 64%) 89%,
+  hsl(245deg 92% 70%) 100%
+);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    height: 100vh;
+    width: 98.7vw;
+   
+
+}
+.navbar{
+    
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    font-size: 19px;
+    font-family: 'Nunito Sans', sans-serif;
+    padding-right: 30px;
+    
+}
+navbar-right{
+    display: flex;
+    column-gap: 26px;
+}
+#stars{
+    height: 100vh;
+    width: 95vw;
+    overflow-x: hidden;
+    
+}
+.navbar-heading:hover{
+    border-radius: 30px;
+    background-color: white;
+    padding: 5px;
+   color: rgb(155, 169, 250);
+    
+    
+}
+.navbar-heading{
+    
+    padding: 5px;
+}
+.navbar-left h1{
+    letter-spacing: 7px;
+}
+.container img{
+    position: absolute;
+    height: 100vh;
+    width: 98.3vw;
+    
+}
+.moon{
+    
+    mix-blend-mode: screen;
+   object-fit: cover;
+   
+}
+.moon-light-head{
+    
+    height: 44vw;
+    width: 98.3vw;
+    position: absolute;
+    font-size: 85px;
+    color: rgb(255, 255, 255);
+    font-family: 'Nunito Sans', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.9s;
+}
+.mountain-front{
+    z-index: 30;
+}
+#explore{
+    position: absolute;
+    text-align: center;
+    font-size: 25px;
+    border-radius: 20px;
+    padding: 5px;
+    background-color: white;
+    font-weight:bold;
+    display: flex;
+    border: none;
+    letter-spacing: 0px;
+     /* Hide the actual text content */
+     cursor: pointer;
+
+}
+.explore-hub{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    
+    position: relative;
+    top: 100px;
+}
+.bottom-para{
+    padding: 10px;
+   background-color: rgb(23,3,26);
+color: white;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+letter-spacing: 3px;
+position: relative;
+z-index: 9999;
+}
+
